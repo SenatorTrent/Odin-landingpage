@@ -1,0 +1,52 @@
+
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.image-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image-row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quote-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-column{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    justify-content: center;
+}
