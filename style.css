@@ -13,6 +13,8 @@ h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+
+    margin:0;
 }
 
 /** information header**/
@@ -20,6 +22,12 @@ h4{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin: 18px;
+}
+
+/** signup main text**/
+h6{
+    margin:0;
 }
 
 .sub-img-desc{
@@ -37,39 +45,68 @@ h4{
 
 .header, .footer{
     background-color: #1f2937;
+    padding:18px;
 }
 .header{
     display:flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
+    padding:18px 120px;
 }
 .link-list{
     display: flex;
     flex-direction: row;
+    align-items: start;
     color: #E5E7EB;
+}
+ul{
+    list-style-type: none;
+    gap: 15px;
+    margin:0;
+}
+li{
+    list-style-type: none;
+    gap: 15px;
+    margin:0;   
+    flex: 0 0 150px;
+}
+img{
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+.banner-img{
+    width:400px;
+    flex: 0 0 auto;
 }
 .subheading{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1 1 auto;
 
     background-color: #1f2937;
+    padding:60px;
 }
 .sub-left{
     display: flex;
     flex-direction: column;
     align-items: start;
+    gap:18px;
+    padding:18px;
 }
 .image-section{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    padding:30px;
 }
 .image-row{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    margin:18px;
 }
 .quote-section{
     display:flex;
@@ -78,6 +115,7 @@ h4{
     justify-content: center;
 
     background-color: #E5E7EB;
+    padding:120px;
 }
 .quote{
     font-size: 36px;
@@ -85,12 +123,21 @@ h4{
     font-style:italic;
     font-weight:lighter;
 }
+.attrib{
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: 900;
+}
 .signup-section{
     display:flex;
     align-items: center;
     justify-content: center;
+    gap:120px;
 
     background-color: #3882f6;
+    border-radius: 6px;
+    margin:70px;
+    padding:50px 120px;
 }
 .signup-column{
     display:flex;
@@ -99,10 +146,14 @@ h4{
     justify-content: center;
 }
 .footer{
+    display:flex;
     justify-content: center;
+    color: #E5E7EB;
 }
 .signup-button{
     background-color: #3882f6;
     outline:2px solid white;
     color: white;
+    border-style: none;
+    width:155px;
 }
